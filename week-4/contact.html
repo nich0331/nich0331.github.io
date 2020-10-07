@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <TITLE>Goony's Coffee Shop - Home</TITLE>
+</head>
+
+<body>
+     <!--Add the proper page structure for this document -->
+     <!--Shourtcut for comment block - control + / -->
+     <!--Header of the site-->
+     <header>
+        <h1>Goony's Coffee Shop</h1>
+        <nav>
+           <ul>
+                <li>
+                  <a href="contact.html"></a>
+                </li>
+                <li>
+                <a href="contact.html">contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+     <!--Main content of the site-->
+    <main>
+        <h2>Contact us</h2>
+        <table>
+            <caption>hours of operation</caption>
+            <thead>
+                <tr>
+                    <th>Days</th>
+                    <th>Hours</th>
+                </tr>
+            </thead>
+        </table>
+        <tbody>
+           <div>
+            <tr>
+                <td>Mon - Fri</td>
+                <td>6am-9pm</td>
+           </div>
+            </tr>
+            </tr>
+            <tr>
+                <td>Sat</td>
+                <td>8am-11am</td>
+            <div>
+                <tr>
+                <td>Sun</td>
+                <td>Closed</td>
+                </div>
+            </tr>
+        </tbody>
+    </table>
+    <section>
+        <h3>we love to hear from you</h3>
+        <!--adding a form-->
+        <form action="thanks.html" method="post">
+           <div> 
+            <label for="fullname">Your name</label>
+            <input type="text" id="fullname" name="fullname" placeholder="John Doe" value="Mr. ">
+            </div>
+            <div>
+            <label for="youremail">Email</label>
+            <input type="email"id="youremail" name="youremail" required>
+            </div>
+            <div>
+                <label for="message">Message</label>
+                <textarea name="message" id="message"></textarea>
+            <div>
+                <label for="tickets">How many tickets sold in pairs?</label>
+                <input type="tickets" name="tickets" id="tickets" min="0" max="10" step="2"> 
+            </div>
+            <div>
+                <label for="row">Select row</label>
+                <select name="row" id="row">
+                <option value="front">Front</option>
+                <option value="canter" selected>Center</option>
+                 <option value="back">Back</option>   
+            </select>
+            <div>
+                <h3>Have you been here before?</h3>
+                <label for="yes">yes</label>
+                <input type="radio" id="yes" name="past">
+                <label for="no">No</label>
+                <input type="radio" id="no" name="past">
+            </div>
+            <div>
+                <h3>Policies</h3>
+                <input type="checkbox" name="policies" id="policies">
+                <label for="policies">i agree with the terms and policies</label>
+            </div>
+            <button type="submit">Sign me up</button>
+         </form>
+        </section>
+    </main> 
+     <!--footer of the site-->
+    <footer>
+           <!--html entities-->
+            Copyright &copy; Goony's Coffee Shop 2020
+        </footer>
+    </body>
+
+</html>
