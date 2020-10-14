@@ -3,17 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>Simple HTML Assignment</title>
+    <link href="main.css" rel="stylesheet">
+    <style>
+        p:nth-child(3) {
+  background: lightgrey;
+}
+    </style>
+<style>
+        p:nth-child(5) {
+  background: lightgrey;
+}
+</style>
 </head>
 
 <body> 
     <!--Site header-->
-    <header>
-        <h1>HTML Assignment</h1>
-    </header>
+    <header style="background: grey;" >
+        <h1 class="site-title">HTML Assignment</h1>
         <a href="index.html">Home</a>
         <a href="notes.html">Notes</a>
-         <p>
-            <img src="images/image0.jpg" alt="image of me" height="672" width="375"> 
+    </header>
+        <p>
+            <img src="images/image0.jpg" id="my-image" alt="image of me" height="672" width="375"> 
          </p>   
     <article>
         <h2>About me</h2>
@@ -21,17 +32,17 @@
         <p>I like to <strong>skateboard</strong> and <strong>produce music</strong>.
         <p>This year i want to learn about media and design and im also looking forward to learn about coding and responsive webdesign. On my free time i like to make cover arts and make beats.
              </p>
-            <blockquote>
-            Hard work beats talent,when talent doesnt work hard <cite>Kevin Durant</cite>
-            </blockquote>
+            
             <p>
                 This is also my 2<sup>th</sup> year designing and using Adobe apps to design work and art .
             </p>
-            <ul>
+            <ul class="a">
                 <li>Photoshop</li>
                 <li>Illustrator</li>
             </ul>
-            
+            <blockquote>
+                Hard work beats talent,when talent doesnt work hard <cite>Kevin Durant</cite>
+                </blockquote>
            
            
         </article>

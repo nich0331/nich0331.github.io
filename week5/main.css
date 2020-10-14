@@ -1,0 +1,45 @@
+body{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: navy;
+    margin-left: 20px;
+}
+p {
+    background-color: seagreen;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+
+/*selecting child elements*/
+nav ul a {
+    list-style: none;
+}
+/*selecting child elements multiple level*/
+nav ul a {
+    color: blueviolet;  
+    text-decoration: none;
+}
+/*selecting class name to style html elements */
+.orange-text {
+    background: darkslategrey;
+    color: orange;
+    text-decoration: none;
+}
+
+/*we can add multiple classes to one element */
+.large text {
+    
+}
+
+footer{
+    background:aqua 
+}
+
+/* css specifity 
+    formula inline-styles id class tag name 

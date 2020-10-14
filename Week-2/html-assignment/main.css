@@ -1,0 +1,41 @@
+body {
+    color: black;
+    font-size: 18px;
+}
+
+header{
+    background-color: grey;
+}
+
+footer{
+    background-color: grey;
+}
+
+ul.a {
+    list-style-type: square;
+}
+
+nav ul a,
+nav ul a:link,
+nav ul a:visited{
+    background: indianred;
+    box-shadow: lightcoral;
+}
+
+#my-image {
+    box-shadow: 0px 0px 2px 1px black;
+}
+a{
+    text-decoration: none;
+    background-color: lightgrey;
+    box-shadow: 0px 0px 2px 1px black;
+}
+
+a:hover {
+    background-color: antiquewhite;
+}
+
+.site-title {
+    font-family: Arial, Helvetica, sans-serif; color: lightblue;
+}
+
